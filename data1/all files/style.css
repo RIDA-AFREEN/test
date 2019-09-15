@@ -1,0 +1,30 @@
+body { background-color: beige;}
+div.e {
+    width: 1356px;
+    height: 500px;
+    background-image:url("images/21.jpg");
+    background-repeat: no-repeat;
+    
+    animation-name: example;
+    animation-duration: 10s;
+  }
+  
+  @keyframes example {
+    from {background-image:url("images/21.jpg") }
+    to {background-image:url("images/31.jpg") ;}
+  }
+img {width:1356px;
+height: 500px;}
+img.product {width:300px;
+    height:200px;}
+footer {
+    width: 1360px;
+    height:40px ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: left;
+  }
+  
